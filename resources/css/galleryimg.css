@@ -1,0 +1,81 @@
+.nav-button button{
+    margin-top: 10px;
+}
+
+.nav-button button:hover {
+    background-color: #ccac20;
+}
+
+.main h1 {
+    font-weight: bold;
+    font-size: 5rem;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.decor-images {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+    height: 1000px;
+    overflow: scroll;
+}
+
+.decor-img{
+    width: 500px;
+    height: 600px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    cursor: pointer;
+    transition: transform .7s;
+}
+
+.decor-img:hover {
+    transform: scale(1.2);
+}
+
+.modal {
+    padding-right: 300px !important;
+
+}
+
+.modal-dialog img {
+    height: auto;
+    width: 800px;
+}
+
+@media (max-width: 1517px) {
+    .decor-img {
+        transition: transform .1s;
+    }
+
+    .decor-img:hover {
+        transform: scale();
+    }
+}
+
+.call-to-action {
+    height: 300px;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 500px;
+}
+
+.call-to-action h2 {
+    padding-bottom: 20px;
+}
+
+.call-to-action button {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+
+@media (max-width: 980px) {
+    .call-to-action {
+        padding-right: 150px;
+    }
+}
